@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 from pyECLAT import ECLAT
-
 # Load the dataset
 # (Make sure to uncomment the line below and ensure the filename is correct)
 df = pd.read_csv('steam-200k.csv', header=None, names=['user_id', 'game', 'behavior', 'hours', '0'])
